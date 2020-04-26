@@ -4,7 +4,10 @@
   "description": "An environment to create that you do not have to set up ever again",
   "main": "index.js",
   "scripts": {
-    "test": "vagrant up"
+    "test": "vagrant up",
+    "up":"vagrant up",
+    "ssh":"vagrant ssh",
+    "destroy":"vagrant destroy"
   },
   "repository": {
     "type": "git",
