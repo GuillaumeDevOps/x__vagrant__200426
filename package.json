@@ -7,7 +7,10 @@
     "test": "vagrant up",
     "up":"vagrant up",
     "ssh":"vagrant ssh",
-    "destroy":"vagrant destroy"
+    "suspend":"vagrant suspend",
+    "save":"npm run suspend",
+    "destroy":"vagrant destroy",
+    "x02-init":"vagrant init gt50/tensorflow     --box-version 0.9.0"
   },
   "repository": {
     "type": "git",

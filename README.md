@@ -9,6 +9,9 @@ npm run ssh     # Connect to the machine
 npm run destroy # Destroy the machine
 ```
 
+## File
+[Vagrantfile](./Vagrantfile)
+
 
 ## --@STCResults It created the machine in one command
 
