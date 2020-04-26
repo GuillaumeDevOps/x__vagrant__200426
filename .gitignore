@@ -1,3 +1,6 @@
+#vagrant built machine
+.vagrant/machines/*
+
 # Logs
 logs
 *.log
