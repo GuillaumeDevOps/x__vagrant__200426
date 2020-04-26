@@ -1,0 +1,36 @@
+{
+  "name": "x__vagrant__200426",
+  "version": "1.0.0",
+  "description": "An environment to create that you do not have to set up ever again",
+  "main": "index.js",
+  "scripts": {
+    "test": "vagrant up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeDevOps/x__vagrant__200426.git",
+    "directory": "./"
+  },
+  "readme": "README.md",
+  "keywords": [
+    "devops",
+    "vagrant",
+    "afid1092"
+  ],
+  "author": "GuillaumeDevOps",
+  "license": "MIT",
+  "stc":{
+    "url":"http://afelia.jgwill.com/nc/1092",
+    "id":1092,
+    "pid":19,
+    "cid":[1093]
+  },
+  "bugs": {
+    "url": "https://github.com/GuillaumeDevOps/x__vagrant__200426/issues",
+    "email": "devops@guillaumeisabelle.com"
+  },
+  "homepage": "https://github.com/GuillaumeDevOps/x__vagrant__200426#readme",
+  "categories": [
+    "Other"
+  ]
+}
