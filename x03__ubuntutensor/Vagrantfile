@@ -91,6 +91,6 @@ Vagrant.configure("2") do |config|
       pip3 install ipython
       pip3 install matplotlib
       pip3 install tensorflow_hub
-      pip3 install --user --upgrade tensorflow  
+      pip3 install  --upgrade tensorflow  
    SHELL
 end
