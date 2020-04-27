@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   # boxes at https://vagrantcloud.com/search.
   # config.vm.box = "hashicorp/bionic64"
   config.vm.box = "bento/ubuntu-18.04"
-
+# config.vm.box = "chenhan/ubuntu-desktop-20.04"
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
@@ -80,14 +80,17 @@ Vagrant.configure("2") do |config|
       apt-get upgrade -y
   
       #AI
-      apt-get update && sudo apt-get install python3
+      apt-get update 
+      apt-get install -y python3
       apt-get install -y python3-pip
       apt-get install -v virtualenv
       pip3 install -U virtualenv  # system-wide install
       virtualenv --system-site-packages -p python3 ./venv
       #NST dependencies
+      source ./venv/bin/activate
       pip3 install ipython
       pip3 install matplotlib
       pip3 install tensorflow_hub
+      pip3 install --user --upgrade tensorflow  
    SHELL
 end
