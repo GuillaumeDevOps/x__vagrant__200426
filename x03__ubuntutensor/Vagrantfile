@@ -87,13 +87,13 @@ Vagrant.configure("2") do |config|
       pip3 install -U virtualenv  # system-wide install
       virtualenv --system-site-packages -p python3 ./venv
       #NST dependencies
+      alias tensorflowtest='python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"'
       source ./venv/bin/activate
       pip3 install ipython
       pip3 install matplotlib
       pip3 install tensorflow_hub
       pip3 install  --upgrade tensorflow-cpu  
 
-      alias tensorflowtest='python3 -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"'
       echo "Testing Tensorflow -----"
       #tensorflowtest
    SHELL
